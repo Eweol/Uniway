@@ -1,0 +1,2 @@
+MainPackage=D:\Eigene Dateien\OneDrive\Projekte\Fran\Uniway\Fran\bin\ARM\Debug\Fran_0.1.2.0_ARM_Debug.appx
+SymbolPackage=D:\Eigene Dateien\OneDrive\Projekte\Fran\Uniway\Fran\AppPackages\Fran_0.1.2.0_Debug_Test\Fran_0.1.2.0_ARM_Debug.appxsym

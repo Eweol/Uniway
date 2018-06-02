@@ -1,0 +1,46 @@
+ /debug:pdbonly
+ /nowarn:0436;0618;1668;1685;1701;1702
+ /debug+
+ /nostdlib+
+ /optimize+
+ /out:"D:\Eigene Dateien\OneDrive\Projekte\Fran\Uniway\Fran\obj\ARM\Release\ilc\intermediate\Fran.McgInterop.dll"
+ /pdb:"D:\Eigene Dateien\OneDrive\Projekte\Fran\Uniway\Fran\obj\ARM\Release\ilc\intermediate\Fran.McgInterop.pdb"
+ /platform:arm
+ /warnaserror+
+ /unsafe
+ /nologo
+ /target:library
+ /define:MCG_PRE_BUILD
+ /define:WIN32
+ /define:ARM
+ /r:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\1.7.3\tools\ARM\ilc\lib\Private\System.Private.CoreLib.dll"
+ /r:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\1.7.3\tools\ARM\ilc\lib\Private\System.Private.CoreLib.InteropServices.dll"
+ /r:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\1.7.3\tools\ARM\ilc\lib\Private\System.Private.Interop.dll"
+ /r:"D:\Eigene Dateien\OneDrive\Projekte\Fran\Uniway\Fran\obj\ARM\Release\ilc\in\System.Private.Uri.dll"
+ /r:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\1.7.3\tools\ARM\ilc\lib\Private\System.Private.CompilerServices.ICastable.dll"
+ /r:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\1.7.3\tools\ARM\ilc\lib\Private\System.Private.Reflection.dll"
+ /r:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\1.7.3\tools\ARM\ilc\lib\Private\System.Private.DispatchProxy.dll"
+ /r:"D:\Eigene Dateien\OneDrive\Projekte\Fran\Uniway\Fran\obj\ARM\Release\ilc\in\System.Reflection.DispatchProxy.dll"
+ /r:"D:\Eigene Dateien\OneDrive\Projekte\Fran\Uniway\Fran\obj\ARM\Release\ilc\in\System.Reflection.dll"
+ /r:"D:\Eigene Dateien\OneDrive\Projekte\Fran\Uniway\Fran\obj\ARM\Release\ilc\in\System.Runtime.dll"
+ /r:"D:\Eigene Dateien\OneDrive\Projekte\Fran\Uniway\Fran\obj\ARM\Release\ilc\in\System.Runtime.InteropServices.dll"
+ /r:"D:\Eigene Dateien\OneDrive\Projekte\Fran\Uniway\Fran\obj\ARM\Release\ilc\in\System.Runtime.InteropServices.WindowsRuntime.dll"
+ /r:"D:\Eigene Dateien\OneDrive\Projekte\Fran\Uniway\Fran\obj\ARM\Release\ilc\in\System.Numerics.Vectors.dll"
+ /r:"D:\Eigene Dateien\OneDrive\Projekte\Fran\Uniway\Fran\obj\ARM\Release\ilc\in\System.Threading.dll"
+ /r:"D:\Eigene Dateien\OneDrive\Projekte\Fran\Uniway\Fran\obj\ARM\Release\ilc\in\System.Diagnostics.Debug.dll"
+ /r:"D:\Eigene Dateien\OneDrive\Projekte\Fran\Uniway\Fran\obj\ARM\Release\ilc\in\System.Runtime.WindowsRuntime.UI.Xaml.dll"
+ /r:"D:\Eigene Dateien\OneDrive\Projekte\Fran\Uniway\Fran\obj\ARM\Release\ilc\intermediate\TransformedSRWR\System.Runtime.WindowsRuntime.dll"
+ /r:"D:\Eigene Dateien\OneDrive\Projekte\Fran\Uniway\Fran\obj\ARM\Release\ilc\in\System.Dynamic.Runtime.dll"
+ /r:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\1.7.3\tools\ARM\ilc\lib\Private\System.Private.CoreLib.Augments.dll"
+ /r:"D:\Eigene Dateien\OneDrive\Projekte\Fran\Uniway\Fran\obj\ARM\Release\ilc\in\System.Runtime.Extensions.dll"
+ /r:"D:\Eigene Dateien\OneDrive\Projekte\Fran\Uniway\Fran\obj\ARM\Release\ilc\in\System.Collections.dll"
+ /r:"D:\Eigene Dateien\OneDrive\Projekte\Fran\Uniway\Fran\obj\ARM\Release\ilc\in\System.ObjectModel.dll"
+ /r:"C:\Users\Lukas\.nuget\packages\microsoft.net.native.sharedlibrary-arm\1.7.0\tools\SharedLibrary\ret\AnalysisILToc\System.Private.SharedLibrary.Interop.Generated.iltoc"
+ "D:\Eigene Dateien\OneDrive\Projekte\Fran\Uniway\Fran\obj\ARM\Release\ilc\intermediate\Fran.McgInterop\Adapters.g.cs"
+ "D:\Eigene Dateien\OneDrive\Projekte\Fran\Uniway\Fran\obj\ARM\Release\ilc\intermediate\Fran.McgInterop\AssemblyInfo.g.cs"
+ "D:\Eigene Dateien\OneDrive\Projekte\Fran\Uniway\Fran\obj\ARM\Release\ilc\intermediate\Fran.McgInterop\Data.g.cs"
+ "D:\Eigene Dateien\OneDrive\Projekte\Fran\Uniway\Fran\obj\ARM\Release\ilc\intermediate\Fran.McgInterop\Helpers.g.cs"
+ "D:\Eigene Dateien\OneDrive\Projekte\Fran\Uniway\Fran\obj\ARM\Release\ilc\intermediate\Fran.McgInterop\ImplTypes.g.cs"
+ "D:\Eigene Dateien\OneDrive\Projekte\Fran\Uniway\Fran\obj\ARM\Release\ilc\intermediate\Fran.McgInterop\PInvoke.g.cs"
+ "D:\Eigene Dateien\OneDrive\Projekte\Fran\Uniway\Fran\obj\ARM\Release\ilc\intermediate\Fran.McgInterop\SafeTypes.g.cs"
+ "D:\Eigene Dateien\OneDrive\Projekte\Fran\Uniway\Fran\obj\ARM\Release\ilc\intermediate\Fran.McgInterop\SharedStubs.g.cs"

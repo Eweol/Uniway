@@ -12,17 +12,18 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using ZWay_API;
 
 // Die Elementvorlage "Leere Seite" wird unter https://go.microsoft.com/fwlink/?LinkId=234238 dokumentiert.
 
-namespace Fran
+namespace Uniway
 {
     /// <summary>
     /// Eine leere Seite, die eigenständig verwendet oder zu der innerhalb eines Rahmens navigiert werden kann.
     /// </summary>
     public sealed partial class Login : Page
     {
-        zWave zWay;
+        ZWay zWay;
         public Login()
         {
             this.InitializeComponent();
@@ -30,22 +31,18 @@ namespace Fran
 
         void Frame_Navigated(object sender, NavigationFailedEventHandler e)
         {
-            zWay = (zWave)sender;
+            zWay = (ZWay)sender;
         }
         private void Login_Button(object sender, RoutedEventArgs e)
         {
             
-            zWay.Benutzer = "admin"; //TB_Nutzername.Text;
+            zWay.User = "admin"; //TB_Nutzername.Text;
             zWay.Password = " ForteXX125";// TB_Passwort.Password;
-            zWay.IPAdresse = "192.168.178.5";// TB_IPAdresse;
+            zWay.IPAddresse = "192.168.178.5";// TB_IPAdresse;
             if (TB_Port.Text != "")
                 zWay.Port = TB_Port.Text;
 
             zWay.Init();
-            if (zWay.Error)
-            {
-                //Logout
-            }
         }
     }
 }

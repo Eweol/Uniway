@@ -2474,6 +2474,20 @@
             "rid": "aot"
           }
         }
+      },
+      "ZWay_API/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.15063",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.1.5",
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "compile": {
+          "bin/placeholder/ZWay_API.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ZWay_API.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0.15063/win10-arm": {
@@ -4985,6 +4999,20 @@
         },
         "runtime": {
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
+        }
+      },
+      "ZWay_API/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.15063",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.1.5",
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "compile": {
+          "bin/placeholder/ZWay_API.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ZWay_API.dll": {}
         }
       }
     },
@@ -7534,6 +7562,20 @@
         "runtime": {
           "runtimes/aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "ZWay_API/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.15063",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.1.5",
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "compile": {
+          "bin/placeholder/ZWay_API.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ZWay_API.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0.15063/win10-arm64-aot": {
@@ -10062,6 +10104,20 @@
         "runtime": {
           "runtimes/aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "ZWay_API/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.15063",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.1.5",
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "compile": {
+          "bin/placeholder/ZWay_API.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ZWay_API.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0.15063/win10-x64": {
@@ -12582,6 +12638,20 @@
         },
         "runtime": {
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
+        }
+      },
+      "ZWay_API/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.15063",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.1.5",
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "compile": {
+          "bin/placeholder/ZWay_API.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ZWay_API.dll": {}
         }
       }
     },
@@ -15140,6 +15210,20 @@
         "runtime": {
           "runtimes/aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "ZWay_API/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.15063",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.1.5",
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "compile": {
+          "bin/placeholder/ZWay_API.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ZWay_API.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0.15063/win10-x86": {
@@ -17660,6 +17744,20 @@
         },
         "runtime": {
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
+        }
+      },
+      "ZWay_API/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.15063",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.1.5",
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "compile": {
+          "bin/placeholder/ZWay_API.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ZWay_API.dll": {}
         }
       }
     },
@@ -20217,6 +20315,20 @@
         },
         "runtime": {
           "runtimes/aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
+        }
+      },
+      "ZWay_API/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.15063",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.1.5",
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "compile": {
+          "bin/placeholder/ZWay_API.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ZWay_API.dll": {}
         }
       }
     }
@@ -30152,13 +30264,18 @@
         "ref/xamarinwatchos10/_._",
         "runtimes/aot/lib/netcore50/System.Xml.XmlSerializer.dll"
       ]
+    },
+    "ZWay_API/1.0.0": {
+      "type": "project",
+      "path": "../ZWay_API/ZWay_API.csproj",
+      "msbuildProject": "../ZWay_API/ZWay_API.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "UAP,Version=v10.0.15063": [
       "AutoMapper >= 6.2.2",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 6.1.5",
-      "Newtonsoft.Json >= 11.0.2"
+      "ZWay_API >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -30168,9 +30285,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Eigene Dateien\\OneDrive\\Projekte\\Fran\\Uniway\\Fran\\Fran.csproj",
-      "projectName": "Fran",
-      "projectPath": "D:\\Eigene Dateien\\OneDrive\\Projekte\\Fran\\Uniway\\Fran\\Fran.csproj",
+      "projectUniqueName": "D:\\Eigene Dateien\\OneDrive\\Projekte\\Fran\\Uniway\\Fran\\Uniway.csproj",
+      "projectName": "Uniway",
+      "projectPath": "D:\\Eigene Dateien\\OneDrive\\Projekte\\Fran\\Uniway\\Fran\\Uniway.csproj",
       "packagesPath": "C:\\Users\\Lukas\\.nuget\\packages\\",
       "outputPath": "D:\\Eigene Dateien\\OneDrive\\Projekte\\Fran\\Uniway\\Fran\\obj\\",
       "projectStyle": "PackageReference",
@@ -30191,7 +30308,11 @@
       },
       "frameworks": {
         "uap10.0.15063": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Eigene Dateien\\OneDrive\\Projekte\\Fran\\Uniway\\ZWay_API\\ZWay_API.csproj": {
+              "projectPath": "D:\\Eigene Dateien\\OneDrive\\Projekte\\Fran\\Uniway\\ZWay_API\\ZWay_API.csproj"
+            }
+          }
         }
       }
     },
@@ -30205,10 +30326,6 @@
           "Microsoft.NETCore.UniversalWindowsPlatform": {
             "target": "Package",
             "version": "[6.1.5, )"
-          },
-          "Newtonsoft.Json": {
-            "target": "Package",
-            "version": "[11.0.2, )"
           }
         }
       }

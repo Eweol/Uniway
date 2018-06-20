@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>D:\Eigene Dateien\OneDrive\Projekte\Fran\Uniway\Fran\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>F72D30DC0D994A5BA939A05CBA3846E119C4571D64B8B6B393578EB1E9095620</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>300A4C9D610E204B581DF48A01AC497D935584FE3B4ED112EE1D0A9032129FD1</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>56fc682c-9638-415d-9c35-192b24cd92e4_0.1.2.0_x86__1e9a7yh7z9bhc</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>56fc682c-9638-415d-9c35-192b24cd92e4_1e9a7yh7z9bhc!App</RegisteredUserModeAppID>
     <RegisteredPackageID>56fc682c-9638-415d-9c35-192b24cd92e4</RegisteredPackageID>
@@ -31,13 +31,13 @@
     <AppXManifest Include="D:\Eigene Dateien\OneDrive\Projekte\Fran\Uniway\Fran\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-06-02T12:26:58.914</Modified>
+      <Modified>2018-06-20T11:59:15.208</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\Eigene Dateien\OneDrive\Projekte\Fran\Uniway\Fran\bin\x86\Debug\Fran.exe">
-      <PackagePath>entrypoint\Fran.exe</PackagePath>
-      <Modified>2018-06-02T12:26:58.052</Modified>
+    <AppxPackagedFile Include="D:\Eigene Dateien\OneDrive\Projekte\Fran\Uniway\Fran\bin\x86\Debug\Uniway.exe">
+      <PackagePath>entrypoint\Uniway.exe</PackagePath>
+      <Modified>2018-06-20T11:59:14.243</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lukas\.nuget\packages\automapper\6.2.2\lib\netstandard1.3\AutoMapper.dll">
       <PackagePath>AutoMapper.dll</PackagePath>
@@ -523,63 +523,67 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2016-06-11T21:15:04.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Eigene Dateien\OneDrive\Projekte\Fran\Uniway\ZWay_API\bin\x86\Debug\ZWay_API.dll">
+      <PackagePath>ZWay_API.dll</PackagePath>
+      <Modified>2018-06-20T11:56:05.867</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Eigene Dateien\OneDrive\Projekte\Fran\Uniway\Fran\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2017-09-16T11:55:44.000</Modified>
+      <Modified>2018-06-02T18:31:10.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Eigene Dateien\OneDrive\Projekte\Fran\Uniway\Fran\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2017-12-06T05:00:06.000</Modified>
+      <Modified>2018-06-02T18:31:10.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Eigene Dateien\OneDrive\Projekte\Fran\Uniway\Fran\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-16T10:10:20.000</Modified>
+      <Modified>2018-06-02T18:31:10.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Eigene Dateien\OneDrive\Projekte\Fran\Uniway\Fran\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-16T10:10:20.000</Modified>
+      <Modified>2018-06-02T18:31:10.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Eigene Dateien\OneDrive\Projekte\Fran\Uniway\Fran\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-16T10:10:20.000</Modified>
+      <Modified>2018-06-02T18:31:10.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Eigene Dateien\OneDrive\Projekte\Fran\Uniway\Fran\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-06T05:00:06.000</Modified>
+      <Modified>2018-06-02T18:31:10.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Eigene Dateien\OneDrive\Projekte\Fran\Uniway\Fran\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-16T10:10:20.000</Modified>
+      <Modified>2018-06-02T18:31:10.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Eigene Dateien\OneDrive\Projekte\Fran\Uniway\Fran\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-16T10:10:20.000</Modified>
+      <Modified>2018-06-02T18:31:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Eigene Dateien\OneDrive\Projekte\Fran\Uniway\Fran\Assets\LogInData.txt">
-      <PackagePath>Assets\LogInData.txt</PackagePath>
-      <Modified>2018-05-31T17:36:57.891</Modified>
+    <AppxPackagedFile Include="D:\Eigene Dateien\OneDrive\Projekte\Fran\Uniway\Fran\LogInData.txt">
+      <PackagePath>LogInData.txt</PackagePath>
+      <Modified>2018-06-02T19:52:07.747</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Eigene Dateien\OneDrive\Projekte\Fran\Uniway\Fran\bin\x86\Debug\Fran.xr.xml">
-      <PackagePath>Fran.xr.xml</PackagePath>
-      <Modified>2018-06-02T08:21:41.955</Modified>
+    <AppxPackagedFile Include="D:\Eigene Dateien\OneDrive\Projekte\Fran\Uniway\Fran\bin\x86\Debug\Uniway.xr.xml">
+      <PackagePath>Uniway.xr.xml</PackagePath>
+      <Modified>2018-06-07T18:53:59.341</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Eigene Dateien\OneDrive\Projekte\Fran\Uniway\Fran\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-06-02T12:26:57.789</Modified>
+      <Modified>2018-06-20T11:59:14.006</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Eigene Dateien\OneDrive\Projekte\Fran\Uniway\Fran\bin\x86\Debug\Login.xbf">
       <PackagePath>Login.xbf</PackagePath>
-      <Modified>2018-06-02T12:26:57.804</Modified>
+      <Modified>2018-06-20T11:59:14.015</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Eigene Dateien\OneDrive\Projekte\Fran\Uniway\Fran\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2018-06-02T12:26:57.823</Modified>
+      <Modified>2018-06-20T11:59:14.019</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -588,11 +592,11 @@
     <AppxPackagedFile Include="D:\Eigene Dateien\OneDrive\Projekte\Fran\Uniway\Fran\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-06-02T12:11:48.586</Modified>
+      <Modified>2018-06-18T18:01:45.716</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Eigene Dateien\OneDrive\Projekte\Fran\Uniway\Fran\bin\x86\Debug\Core\Fran.exe">
-      <PackagePath>Fran.exe</PackagePath>
-      <Modified>2018-06-02T12:26:58.887</Modified>
+    <AppxPackagedFile Include="D:\Eigene Dateien\OneDrive\Projekte\Fran\Uniway\Fran\bin\x86\Debug\Core\Uniway.exe">
+      <PackagePath>Uniway.exe</PackagePath>
+      <Modified>2018-06-20T11:59:15.171</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

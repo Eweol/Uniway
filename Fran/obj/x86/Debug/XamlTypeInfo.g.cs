@@ -8,18 +8,18 @@
 //------------------------------------------------------------------------------
 
 
-namespace Fran
+namespace Uniway
 {
     public partial class App : global::Windows.UI.Xaml.Markup.IXamlMetadataProvider
     {
-        private global::Fran.Fran_XamlTypeInfo.XamlMetaDataProvider __appProvider;
-        private global::Fran.Fran_XamlTypeInfo.XamlMetaDataProvider _AppProvider
+        private global::Uniway.Uniway_XamlTypeInfo.XamlMetaDataProvider __appProvider;
+        private global::Uniway.Uniway_XamlTypeInfo.XamlMetaDataProvider _AppProvider
         {
             get
             {
                 if (__appProvider == null)
                 {
-                    __appProvider = new global::Fran.Fran_XamlTypeInfo.XamlMetaDataProvider();
+                    __appProvider = new global::Uniway.Uniway_XamlTypeInfo.XamlMetaDataProvider();
                 }
                 return __appProvider;
             }
@@ -51,7 +51,7 @@ namespace Fran
     }
 }
 
-namespace Fran.Fran_XamlTypeInfo
+namespace Uniway.Uniway_XamlTypeInfo
 {
     /// <summary>
     /// Main class for providing metadata for the app or library
@@ -60,15 +60,15 @@ namespace Fran.Fran_XamlTypeInfo
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     public sealed class XamlMetaDataProvider : global::Windows.UI.Xaml.Markup.IXamlMetadataProvider
     {
-        private global::Fran.Fran_XamlTypeInfo.XamlTypeInfoProvider _provider = null;
+        private global::Uniway.Uniway_XamlTypeInfo.XamlTypeInfoProvider _provider = null;
 
-        private global::Fran.Fran_XamlTypeInfo.XamlTypeInfoProvider Provider
+        private global::Uniway.Uniway_XamlTypeInfo.XamlTypeInfoProvider Provider
         {
             get
             {
                 if (_provider == null)
                 {
-                    _provider = new global::Fran.Fran_XamlTypeInfo.XamlTypeInfoProvider();
+                    _provider = new global::Uniway.Uniway_XamlTypeInfo.XamlTypeInfoProvider();
                 }
                 return _provider;
             }
@@ -190,22 +190,22 @@ namespace Fran.Fran_XamlTypeInfo
         private void InitTypeTables()
         {
             _typeNameTable = new string[7];
-            _typeNameTable[0] = "Fran.Login";
+            _typeNameTable[0] = "Uniway.Login";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[3] = "Fran.DeviceTemplates";
+            _typeNameTable[3] = "Uniway.DeviceTemplates";
             _typeNameTable[4] = "Windows.UI.Xaml.Controls.DataTemplateSelector";
             _typeNameTable[5] = "Windows.UI.Xaml.DataTemplate";
-            _typeNameTable[6] = "Fran.MainPage";
+            _typeNameTable[6] = "Uniway.MainPage";
 
             _typeTable = new global::System.Type[7];
-            _typeTable[0] = typeof(global::Fran.Login);
+            _typeTable[0] = typeof(global::Uniway.Login);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[3] = typeof(global::Fran.DeviceTemplates);
+            _typeTable[3] = typeof(global::Uniway.DeviceTemplates);
             _typeTable[4] = typeof(global::Windows.UI.Xaml.Controls.DataTemplateSelector);
             _typeTable[5] = typeof(global::Windows.UI.Xaml.DataTemplate);
-            _typeTable[6] = typeof(global::Fran.MainPage);
+            _typeTable[6] = typeof(global::Uniway.MainPage);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -240,56 +240,65 @@ namespace Fran.Fran_XamlTypeInfo
             return -1;
         }
 
-        private object Activate_0_Login() { return new global::Fran.Login(); }
-        private object Activate_3_DeviceTemplates() { return new global::Fran.DeviceTemplates(); }
-        private object Activate_6_MainPage() { return new global::Fran.MainPage(); }
+        private object Activate_0_Login() { return new global::Uniway.Login(); }
+        private object Activate_3_DeviceTemplates() { return new global::Uniway.DeviceTemplates(); }
+        private object Activate_6_MainPage() { return new global::Uniway.MainPage(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
-            global::Fran.Fran_XamlTypeInfo.XamlSystemBaseType xamlType = null;
-            global::Fran.Fran_XamlTypeInfo.XamlUserType userType;
+            global::Uniway.Uniway_XamlTypeInfo.XamlSystemBaseType xamlType = null;
+            global::Uniway.Uniway_XamlTypeInfo.XamlUserType userType;
             string typeName = _typeNameTable[typeIndex];
             global::System.Type type = _typeTable[typeIndex];
 
             switch (typeIndex)
             {
 
-            case 0:   //  Fran.Login
-                userType = new global::Fran.Fran_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+            case 0:   //  Uniway.Login
+                userType = new global::Uniway.Uniway_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_0_Login;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
             case 1:   //  Windows.UI.Xaml.Controls.Page
-                xamlType = new global::Fran.Fran_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::Uniway.Uniway_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 2:   //  Windows.UI.Xaml.Controls.UserControl
-                xamlType = new global::Fran.Fran_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::Uniway.Uniway_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 3:   //  Fran.DeviceTemplates
-                userType = new global::Fran.Fran_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.DataTemplateSelector"));
+            case 3:   //  Uniway.DeviceTemplates
+                userType = new global::Uniway.Uniway_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.DataTemplateSelector"));
                 userType.Activator = Activate_3_DeviceTemplates;
-                userType.AddMemberName("MultiSensorTemplate");
-                userType.AddMemberName("SensorTemplate");
-                userType.AddMemberName("SwitchTemplate");
-                userType.AddMemberName("DefaultTemplate");
+                userType.AddMemberName("SwitchBinaryDevicesTemplate");
+                userType.AddMemberName("SensorBinaryDevicesTemplate");
+                userType.AddMemberName("SensorMultilevelDevicesTemplate");
+                userType.AddMemberName("DevicesTemplate");
+                userType.AddMemberName("BatteryDevicesTemplate");
+                userType.AddMemberName("DoorLockDevicesTemplate");
+                userType.AddMemberName("ThermostatDevicesTemplate");
+                userType.AddMemberName("SwitchMultilevelDevicesTemplate");
+                userType.AddMemberName("ToggleButtonDevicesTemplate");
+                userType.AddMemberName("CameraDevicesTemplate");
+                userType.AddMemberName("SwitchControlDevicesTemplate");
+                userType.AddMemberName("TextDevicesTemplate");
+                userType.AddMemberName("SwitchRGBDevicesTemplate");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
             case 4:   //  Windows.UI.Xaml.Controls.DataTemplateSelector
-                xamlType = new global::Fran.Fran_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::Uniway.Uniway_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 5:   //  Windows.UI.Xaml.DataTemplate
-                xamlType = new global::Fran.Fran_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::Uniway.Uniway_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 6:   //  Fran.MainPage
-                userType = new global::Fran.Fran_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+            case 6:   //  Uniway.MainPage
+                userType = new global::Uniway.Uniway_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_6_MainPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
@@ -299,77 +308,221 @@ namespace Fran.Fran_XamlTypeInfo
         }
 
 
-        private object get_0_DeviceTemplates_MultiSensorTemplate(object instance)
+        private object get_0_DeviceTemplates_SwitchBinaryDevicesTemplate(object instance)
         {
-            var that = (global::Fran.DeviceTemplates)instance;
-            return that.MultiSensorTemplate;
+            var that = (global::Uniway.DeviceTemplates)instance;
+            return that.SwitchBinaryDevicesTemplate;
         }
-        private void set_0_DeviceTemplates_MultiSensorTemplate(object instance, object Value)
+        private void set_0_DeviceTemplates_SwitchBinaryDevicesTemplate(object instance, object Value)
         {
-            var that = (global::Fran.DeviceTemplates)instance;
-            that.MultiSensorTemplate = (global::Windows.UI.Xaml.DataTemplate)Value;
+            var that = (global::Uniway.DeviceTemplates)instance;
+            that.SwitchBinaryDevicesTemplate = (global::Windows.UI.Xaml.DataTemplate)Value;
         }
-        private object get_1_DeviceTemplates_SensorTemplate(object instance)
+        private object get_1_DeviceTemplates_SensorBinaryDevicesTemplate(object instance)
         {
-            var that = (global::Fran.DeviceTemplates)instance;
-            return that.SensorTemplate;
+            var that = (global::Uniway.DeviceTemplates)instance;
+            return that.SensorBinaryDevicesTemplate;
         }
-        private void set_1_DeviceTemplates_SensorTemplate(object instance, object Value)
+        private void set_1_DeviceTemplates_SensorBinaryDevicesTemplate(object instance, object Value)
         {
-            var that = (global::Fran.DeviceTemplates)instance;
-            that.SensorTemplate = (global::Windows.UI.Xaml.DataTemplate)Value;
+            var that = (global::Uniway.DeviceTemplates)instance;
+            that.SensorBinaryDevicesTemplate = (global::Windows.UI.Xaml.DataTemplate)Value;
         }
-        private object get_2_DeviceTemplates_SwitchTemplate(object instance)
+        private object get_2_DeviceTemplates_SensorMultilevelDevicesTemplate(object instance)
         {
-            var that = (global::Fran.DeviceTemplates)instance;
-            return that.SwitchTemplate;
+            var that = (global::Uniway.DeviceTemplates)instance;
+            return that.SensorMultilevelDevicesTemplate;
         }
-        private void set_2_DeviceTemplates_SwitchTemplate(object instance, object Value)
+        private void set_2_DeviceTemplates_SensorMultilevelDevicesTemplate(object instance, object Value)
         {
-            var that = (global::Fran.DeviceTemplates)instance;
-            that.SwitchTemplate = (global::Windows.UI.Xaml.DataTemplate)Value;
+            var that = (global::Uniway.DeviceTemplates)instance;
+            that.SensorMultilevelDevicesTemplate = (global::Windows.UI.Xaml.DataTemplate)Value;
         }
-        private object get_3_DeviceTemplates_DefaultTemplate(object instance)
+        private object get_3_DeviceTemplates_DevicesTemplate(object instance)
         {
-            var that = (global::Fran.DeviceTemplates)instance;
-            return that.DefaultTemplate;
+            var that = (global::Uniway.DeviceTemplates)instance;
+            return that.DevicesTemplate;
         }
-        private void set_3_DeviceTemplates_DefaultTemplate(object instance, object Value)
+        private void set_3_DeviceTemplates_DevicesTemplate(object instance, object Value)
         {
-            var that = (global::Fran.DeviceTemplates)instance;
-            that.DefaultTemplate = (global::Windows.UI.Xaml.DataTemplate)Value;
+            var that = (global::Uniway.DeviceTemplates)instance;
+            that.DevicesTemplate = (global::Windows.UI.Xaml.DataTemplate)Value;
+        }
+        private object get_4_DeviceTemplates_BatteryDevicesTemplate(object instance)
+        {
+            var that = (global::Uniway.DeviceTemplates)instance;
+            return that.BatteryDevicesTemplate;
+        }
+        private void set_4_DeviceTemplates_BatteryDevicesTemplate(object instance, object Value)
+        {
+            var that = (global::Uniway.DeviceTemplates)instance;
+            that.BatteryDevicesTemplate = (global::Windows.UI.Xaml.DataTemplate)Value;
+        }
+        private object get_5_DeviceTemplates_DoorLockDevicesTemplate(object instance)
+        {
+            var that = (global::Uniway.DeviceTemplates)instance;
+            return that.DoorLockDevicesTemplate;
+        }
+        private void set_5_DeviceTemplates_DoorLockDevicesTemplate(object instance, object Value)
+        {
+            var that = (global::Uniway.DeviceTemplates)instance;
+            that.DoorLockDevicesTemplate = (global::Windows.UI.Xaml.DataTemplate)Value;
+        }
+        private object get_6_DeviceTemplates_ThermostatDevicesTemplate(object instance)
+        {
+            var that = (global::Uniway.DeviceTemplates)instance;
+            return that.ThermostatDevicesTemplate;
+        }
+        private void set_6_DeviceTemplates_ThermostatDevicesTemplate(object instance, object Value)
+        {
+            var that = (global::Uniway.DeviceTemplates)instance;
+            that.ThermostatDevicesTemplate = (global::Windows.UI.Xaml.DataTemplate)Value;
+        }
+        private object get_7_DeviceTemplates_SwitchMultilevelDevicesTemplate(object instance)
+        {
+            var that = (global::Uniway.DeviceTemplates)instance;
+            return that.SwitchMultilevelDevicesTemplate;
+        }
+        private void set_7_DeviceTemplates_SwitchMultilevelDevicesTemplate(object instance, object Value)
+        {
+            var that = (global::Uniway.DeviceTemplates)instance;
+            that.SwitchMultilevelDevicesTemplate = (global::Windows.UI.Xaml.DataTemplate)Value;
+        }
+        private object get_8_DeviceTemplates_ToggleButtonDevicesTemplate(object instance)
+        {
+            var that = (global::Uniway.DeviceTemplates)instance;
+            return that.ToggleButtonDevicesTemplate;
+        }
+        private void set_8_DeviceTemplates_ToggleButtonDevicesTemplate(object instance, object Value)
+        {
+            var that = (global::Uniway.DeviceTemplates)instance;
+            that.ToggleButtonDevicesTemplate = (global::Windows.UI.Xaml.DataTemplate)Value;
+        }
+        private object get_9_DeviceTemplates_CameraDevicesTemplate(object instance)
+        {
+            var that = (global::Uniway.DeviceTemplates)instance;
+            return that.CameraDevicesTemplate;
+        }
+        private void set_9_DeviceTemplates_CameraDevicesTemplate(object instance, object Value)
+        {
+            var that = (global::Uniway.DeviceTemplates)instance;
+            that.CameraDevicesTemplate = (global::Windows.UI.Xaml.DataTemplate)Value;
+        }
+        private object get_10_DeviceTemplates_SwitchControlDevicesTemplate(object instance)
+        {
+            var that = (global::Uniway.DeviceTemplates)instance;
+            return that.SwitchControlDevicesTemplate;
+        }
+        private void set_10_DeviceTemplates_SwitchControlDevicesTemplate(object instance, object Value)
+        {
+            var that = (global::Uniway.DeviceTemplates)instance;
+            that.SwitchControlDevicesTemplate = (global::Windows.UI.Xaml.DataTemplate)Value;
+        }
+        private object get_11_DeviceTemplates_TextDevicesTemplate(object instance)
+        {
+            var that = (global::Uniway.DeviceTemplates)instance;
+            return that.TextDevicesTemplate;
+        }
+        private void set_11_DeviceTemplates_TextDevicesTemplate(object instance, object Value)
+        {
+            var that = (global::Uniway.DeviceTemplates)instance;
+            that.TextDevicesTemplate = (global::Windows.UI.Xaml.DataTemplate)Value;
+        }
+        private object get_12_DeviceTemplates_SwitchRGBDevicesTemplate(object instance)
+        {
+            var that = (global::Uniway.DeviceTemplates)instance;
+            return that.SwitchRGBDevicesTemplate;
+        }
+        private void set_12_DeviceTemplates_SwitchRGBDevicesTemplate(object instance, object Value)
+        {
+            var that = (global::Uniway.DeviceTemplates)instance;
+            that.SwitchRGBDevicesTemplate = (global::Windows.UI.Xaml.DataTemplate)Value;
         }
 
         private global::Windows.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
         {
-            global::Fran.Fran_XamlTypeInfo.XamlMember xamlMember = null;
-            global::Fran.Fran_XamlTypeInfo.XamlUserType userType;
+            global::Uniway.Uniway_XamlTypeInfo.XamlMember xamlMember = null;
+            global::Uniway.Uniway_XamlTypeInfo.XamlUserType userType;
 
             switch (longMemberName)
             {
-            case "Fran.DeviceTemplates.MultiSensorTemplate":
-                userType = (global::Fran.Fran_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Fran.DeviceTemplates");
-                xamlMember = new global::Fran.Fran_XamlTypeInfo.XamlMember(this, "MultiSensorTemplate", "Windows.UI.Xaml.DataTemplate");
-                xamlMember.Getter = get_0_DeviceTemplates_MultiSensorTemplate;
-                xamlMember.Setter = set_0_DeviceTemplates_MultiSensorTemplate;
+            case "Uniway.DeviceTemplates.SwitchBinaryDevicesTemplate":
+                userType = (global::Uniway.Uniway_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Uniway.DeviceTemplates");
+                xamlMember = new global::Uniway.Uniway_XamlTypeInfo.XamlMember(this, "SwitchBinaryDevicesTemplate", "Windows.UI.Xaml.DataTemplate");
+                xamlMember.Getter = get_0_DeviceTemplates_SwitchBinaryDevicesTemplate;
+                xamlMember.Setter = set_0_DeviceTemplates_SwitchBinaryDevicesTemplate;
                 break;
-            case "Fran.DeviceTemplates.SensorTemplate":
-                userType = (global::Fran.Fran_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Fran.DeviceTemplates");
-                xamlMember = new global::Fran.Fran_XamlTypeInfo.XamlMember(this, "SensorTemplate", "Windows.UI.Xaml.DataTemplate");
-                xamlMember.Getter = get_1_DeviceTemplates_SensorTemplate;
-                xamlMember.Setter = set_1_DeviceTemplates_SensorTemplate;
+            case "Uniway.DeviceTemplates.SensorBinaryDevicesTemplate":
+                userType = (global::Uniway.Uniway_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Uniway.DeviceTemplates");
+                xamlMember = new global::Uniway.Uniway_XamlTypeInfo.XamlMember(this, "SensorBinaryDevicesTemplate", "Windows.UI.Xaml.DataTemplate");
+                xamlMember.Getter = get_1_DeviceTemplates_SensorBinaryDevicesTemplate;
+                xamlMember.Setter = set_1_DeviceTemplates_SensorBinaryDevicesTemplate;
                 break;
-            case "Fran.DeviceTemplates.SwitchTemplate":
-                userType = (global::Fran.Fran_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Fran.DeviceTemplates");
-                xamlMember = new global::Fran.Fran_XamlTypeInfo.XamlMember(this, "SwitchTemplate", "Windows.UI.Xaml.DataTemplate");
-                xamlMember.Getter = get_2_DeviceTemplates_SwitchTemplate;
-                xamlMember.Setter = set_2_DeviceTemplates_SwitchTemplate;
+            case "Uniway.DeviceTemplates.SensorMultilevelDevicesTemplate":
+                userType = (global::Uniway.Uniway_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Uniway.DeviceTemplates");
+                xamlMember = new global::Uniway.Uniway_XamlTypeInfo.XamlMember(this, "SensorMultilevelDevicesTemplate", "Windows.UI.Xaml.DataTemplate");
+                xamlMember.Getter = get_2_DeviceTemplates_SensorMultilevelDevicesTemplate;
+                xamlMember.Setter = set_2_DeviceTemplates_SensorMultilevelDevicesTemplate;
                 break;
-            case "Fran.DeviceTemplates.DefaultTemplate":
-                userType = (global::Fran.Fran_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Fran.DeviceTemplates");
-                xamlMember = new global::Fran.Fran_XamlTypeInfo.XamlMember(this, "DefaultTemplate", "Windows.UI.Xaml.DataTemplate");
-                xamlMember.Getter = get_3_DeviceTemplates_DefaultTemplate;
-                xamlMember.Setter = set_3_DeviceTemplates_DefaultTemplate;
+            case "Uniway.DeviceTemplates.DevicesTemplate":
+                userType = (global::Uniway.Uniway_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Uniway.DeviceTemplates");
+                xamlMember = new global::Uniway.Uniway_XamlTypeInfo.XamlMember(this, "DevicesTemplate", "Windows.UI.Xaml.DataTemplate");
+                xamlMember.Getter = get_3_DeviceTemplates_DevicesTemplate;
+                xamlMember.Setter = set_3_DeviceTemplates_DevicesTemplate;
+                break;
+            case "Uniway.DeviceTemplates.BatteryDevicesTemplate":
+                userType = (global::Uniway.Uniway_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Uniway.DeviceTemplates");
+                xamlMember = new global::Uniway.Uniway_XamlTypeInfo.XamlMember(this, "BatteryDevicesTemplate", "Windows.UI.Xaml.DataTemplate");
+                xamlMember.Getter = get_4_DeviceTemplates_BatteryDevicesTemplate;
+                xamlMember.Setter = set_4_DeviceTemplates_BatteryDevicesTemplate;
+                break;
+            case "Uniway.DeviceTemplates.DoorLockDevicesTemplate":
+                userType = (global::Uniway.Uniway_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Uniway.DeviceTemplates");
+                xamlMember = new global::Uniway.Uniway_XamlTypeInfo.XamlMember(this, "DoorLockDevicesTemplate", "Windows.UI.Xaml.DataTemplate");
+                xamlMember.Getter = get_5_DeviceTemplates_DoorLockDevicesTemplate;
+                xamlMember.Setter = set_5_DeviceTemplates_DoorLockDevicesTemplate;
+                break;
+            case "Uniway.DeviceTemplates.ThermostatDevicesTemplate":
+                userType = (global::Uniway.Uniway_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Uniway.DeviceTemplates");
+                xamlMember = new global::Uniway.Uniway_XamlTypeInfo.XamlMember(this, "ThermostatDevicesTemplate", "Windows.UI.Xaml.DataTemplate");
+                xamlMember.Getter = get_6_DeviceTemplates_ThermostatDevicesTemplate;
+                xamlMember.Setter = set_6_DeviceTemplates_ThermostatDevicesTemplate;
+                break;
+            case "Uniway.DeviceTemplates.SwitchMultilevelDevicesTemplate":
+                userType = (global::Uniway.Uniway_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Uniway.DeviceTemplates");
+                xamlMember = new global::Uniway.Uniway_XamlTypeInfo.XamlMember(this, "SwitchMultilevelDevicesTemplate", "Windows.UI.Xaml.DataTemplate");
+                xamlMember.Getter = get_7_DeviceTemplates_SwitchMultilevelDevicesTemplate;
+                xamlMember.Setter = set_7_DeviceTemplates_SwitchMultilevelDevicesTemplate;
+                break;
+            case "Uniway.DeviceTemplates.ToggleButtonDevicesTemplate":
+                userType = (global::Uniway.Uniway_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Uniway.DeviceTemplates");
+                xamlMember = new global::Uniway.Uniway_XamlTypeInfo.XamlMember(this, "ToggleButtonDevicesTemplate", "Windows.UI.Xaml.DataTemplate");
+                xamlMember.Getter = get_8_DeviceTemplates_ToggleButtonDevicesTemplate;
+                xamlMember.Setter = set_8_DeviceTemplates_ToggleButtonDevicesTemplate;
+                break;
+            case "Uniway.DeviceTemplates.CameraDevicesTemplate":
+                userType = (global::Uniway.Uniway_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Uniway.DeviceTemplates");
+                xamlMember = new global::Uniway.Uniway_XamlTypeInfo.XamlMember(this, "CameraDevicesTemplate", "Windows.UI.Xaml.DataTemplate");
+                xamlMember.Getter = get_9_DeviceTemplates_CameraDevicesTemplate;
+                xamlMember.Setter = set_9_DeviceTemplates_CameraDevicesTemplate;
+                break;
+            case "Uniway.DeviceTemplates.SwitchControlDevicesTemplate":
+                userType = (global::Uniway.Uniway_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Uniway.DeviceTemplates");
+                xamlMember = new global::Uniway.Uniway_XamlTypeInfo.XamlMember(this, "SwitchControlDevicesTemplate", "Windows.UI.Xaml.DataTemplate");
+                xamlMember.Getter = get_10_DeviceTemplates_SwitchControlDevicesTemplate;
+                xamlMember.Setter = set_10_DeviceTemplates_SwitchControlDevicesTemplate;
+                break;
+            case "Uniway.DeviceTemplates.TextDevicesTemplate":
+                userType = (global::Uniway.Uniway_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Uniway.DeviceTemplates");
+                xamlMember = new global::Uniway.Uniway_XamlTypeInfo.XamlMember(this, "TextDevicesTemplate", "Windows.UI.Xaml.DataTemplate");
+                xamlMember.Getter = get_11_DeviceTemplates_TextDevicesTemplate;
+                xamlMember.Setter = set_11_DeviceTemplates_TextDevicesTemplate;
+                break;
+            case "Uniway.DeviceTemplates.SwitchRGBDevicesTemplate":
+                userType = (global::Uniway.Uniway_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Uniway.DeviceTemplates");
+                xamlMember = new global::Uniway.Uniway_XamlTypeInfo.XamlMember(this, "SwitchRGBDevicesTemplate", "Windows.UI.Xaml.DataTemplate");
+                xamlMember.Getter = get_12_DeviceTemplates_SwitchRGBDevicesTemplate;
+                xamlMember.Setter = set_12_DeviceTemplates_SwitchRGBDevicesTemplate;
                 break;
             }
             return xamlMember;
@@ -426,9 +579,9 @@ namespace Fran.Fran_XamlTypeInfo
 
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 10.0.17.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-    internal class XamlUserType : global::Fran.Fran_XamlTypeInfo.XamlSystemBaseType
+    internal class XamlUserType : global::Uniway.Uniway_XamlTypeInfo.XamlSystemBaseType
     {
-        global::Fran.Fran_XamlTypeInfo.XamlTypeInfoProvider _provider;
+        global::Uniway.Uniway_XamlTypeInfo.XamlTypeInfoProvider _provider;
         global::Windows.UI.Xaml.Markup.IXamlType _baseType;
         bool _isArray;
         bool _isMarkupExtension;
@@ -442,7 +595,7 @@ namespace Fran.Fran_XamlTypeInfo
         global::System.Collections.Generic.Dictionary<string, string> _memberNames;
         global::System.Collections.Generic.Dictionary<string, object> _enumValues;
 
-        public XamlUserType(global::Fran.Fran_XamlTypeInfo.XamlTypeInfoProvider provider, string fullName, global::System.Type fullType, global::Windows.UI.Xaml.Markup.IXamlType baseType)
+        public XamlUserType(global::Uniway.Uniway_XamlTypeInfo.XamlTypeInfoProvider provider, string fullName, global::System.Type fullType, global::Windows.UI.Xaml.Markup.IXamlType baseType)
             :base(fullName, fullType)
         {
             _provider = provider;
@@ -639,7 +792,7 @@ namespace Fran.Fran_XamlTypeInfo
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     internal class XamlMember : global::Windows.UI.Xaml.Markup.IXamlMember
     {
-        global::Fran.Fran_XamlTypeInfo.XamlTypeInfoProvider _provider;
+        global::Uniway.Uniway_XamlTypeInfo.XamlTypeInfoProvider _provider;
         string _name;
         bool _isAttachable;
         bool _isDependencyProperty;
@@ -648,7 +801,7 @@ namespace Fran.Fran_XamlTypeInfo
         string _typeName;
         string _targetTypeName;
 
-        public XamlMember(global::Fran.Fran_XamlTypeInfo.XamlTypeInfoProvider provider, string name, string typeName)
+        public XamlMember(global::Uniway.Uniway_XamlTypeInfo.XamlTypeInfoProvider provider, string name, string typeName)
         {
             _name = name;
             _typeName = typeName;

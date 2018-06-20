@@ -421,8 +421,8 @@
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Eigene Dateien\OneDrive\Projekte\Fran\Uniway\Fran\Assets\LogInData.txt">
-      <PackagePath>Assets\LogInData.txt</PackagePath>
+    <AppxPackagedFile Include="D:\Eigene Dateien\OneDrive\Projekte\Fran\Uniway\Fran\LogInData.txt">
+      <PackagePath>LogInData.txt</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Eigene Dateien\OneDrive\Projekte\Fran\Uniway\Fran\bin\x86\Debug\Fran.xr.xml">
       <PackagePath>Fran.xr.xml</PackagePath>

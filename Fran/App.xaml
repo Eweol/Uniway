@@ -1,8 +1,8 @@
 ﻿<Application
-    x:Class="Fran.App"
+    x:Class="Uniway.App"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:Fran"
+    xmlns:local="using:Uniway"
     RequestedTheme="Dark">
 
 </Application>

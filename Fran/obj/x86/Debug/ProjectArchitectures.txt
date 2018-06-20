@@ -1,1 +1,2 @@
-D:\Eigene Dateien\OneDrive\Projekte\Fran\Uniway\Fran\Fran.csproj;x86
+D:\Eigene Dateien\OneDrive\Projekte\Fran\Uniway\Fran\Uniway.csproj;x86
+D:\Eigene Dateien\OneDrive\Projekte\Fran\Uniway\ZWay_API\ZWay_API.csproj;x86

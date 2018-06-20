@@ -1,0 +1,6 @@
+{
+	"port" : "8083",
+	"benutzer" : "admin",
+	"password" : "ForteXX125",
+	"IPAdresse" : "192.168.178.5"
+}
